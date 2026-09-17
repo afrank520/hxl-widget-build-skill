@@ -28,7 +28,7 @@ reference build.
 Clone into your Claude Code user skills folder:
 
 ```bash
-git clone https://github.com/<owner>/hxl-widget-build-skill.git \
+git clone https://github.com/afrank520/hxl-widget-build-skill.git \
   ~/.claude/skills/hxl-widget-build
 ```
 
