@@ -1,0 +1,12 @@
+{
+  "unevaluatedProperties": false,
+  "lightning:type": "lightning__objectType",
+  "properties": {
+    "recordId": {
+      "title": "Record Id",
+      "lightning:type": "lightning__textType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": true
+    }
+  }
+}

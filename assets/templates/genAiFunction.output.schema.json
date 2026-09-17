@@ -1,0 +1,14 @@
+{
+  "unevaluatedProperties": false,
+  "lightning:type": "lightning__objectType",
+  "properties": {
+    "<ANCHOR>": {
+      "title": "<ANCHOR>",
+      "lightning:type": "@apexClassType/c__<ACTION>$<PAYLOAD>",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": true,
+      "copilotAction:isUsedByPlanner": true,
+      "copilotAction:useHydratedPrompt": false
+    }
+  }
+}

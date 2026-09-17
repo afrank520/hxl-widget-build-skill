@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<McpServerDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel><LABEL> Server</masterLabel>
+    <description><LABEL></description>
+    <tools>
+        <apiDefinition>
+            <apiIdentifier>aa:apex-<ACTION></apiIdentifier>
+            <apiSource>API_CATALOG</apiSource>
+            <operation><ACTION></operation>
+        </apiDefinition>
+        <descriptionOverride><LABEL></descriptionOverride>
+        <destructive>false</destructive>
+        <idempotent>true</idempotent>
+        <openWorld>false</openWorld>
+        <readOnly>true</readOnly>
+        <returnDirect>false</returnDirect>
+        <toolName><ACTION>apex_<ACTION></toolName>
+        <toolTitle><LABEL></toolTitle>
+        <!-- MUST byte-match <resourceName> below -->
+        <uiResource><WIDGET></uiResource>
+    </tools>
+    <resources>
+        <resourceName><WIDGET></resourceName>
+        <!-- points at the WRAPPER CLT (c__...Result), NOT the widget or payload -->
+        <resourceUri>ui://widget/lightningType/c__<CLT>Result</resourceUri>
+        <resourceTitle><LABEL></resourceTitle>
+        <description><LABEL></description>
+    </resources>
+</McpServerDefinition>

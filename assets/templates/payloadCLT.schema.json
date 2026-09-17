@@ -1,0 +1,13 @@
+{
+  "title": "<CLT> Output Values",
+  "type": "object",
+  "lightning:type": "lightning__objectType",
+  "unevaluatedProperties": false,
+  "lightning:tags": ["mcp"],
+  "properties": {
+    "<ANCHOR>": {
+      "title": "<ANCHOR>",
+      "lightning:type": "@apexClassType/c__<ACTION>$<PAYLOAD>"
+    }
+  }
+}

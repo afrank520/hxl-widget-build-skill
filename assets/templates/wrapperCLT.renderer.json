@@ -1,0 +1,13 @@
+{
+  "renderer": {
+    "componentOverrides": {
+      "$": {
+        "definition": "@widget/c/<WIDGET>",
+        "attributes": {
+          "title": "{!$attrs.outputValues.<ANCHOR>.title}",
+          "rows":  "{!$attrs.outputValues.<ANCHOR>.rows}"
+        }
+      }
+    }
+  }
+}
